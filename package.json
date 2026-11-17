@@ -1,0 +1,14 @@
+
+{
+  "name": "impedicao_build",
+  "version": "1.0.0",
+  "description": "Projeto para demonstrar pipeline CI/CD com GitHub Actions",
+  "scripts": {
+    "lint": "htmlhint index.html",
+    "build": "node -e \"console.log('Build executado com sucesso!')\"",
+    "deploy": "node -e \"console.log('Deploy executado com sucesso!')\""
+  },
+  "devDependencies": {
+    "htmlhint": "^1.9.2"
+  }
+}
